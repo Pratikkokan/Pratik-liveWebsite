@@ -1,0 +1,344 @@
+.container {
+    display: flex;
+}
+
+.boxA {
+    width: 25%;
+    border: 1px solid black;
+    background-color: rgb(42, 40, 40);
+    height: 740px;
+}
+
+.profile {
+
+    margin: 0px;
+    padding: 6px;
+}
+
+.profile-img {
+    width: 100px;
+    margin: 20px 10px 10px 116px;
+    padding: 4px;
+    border: 4px solid black;
+    border-radius: 50%;
+    height: 90px;
+    
+}
+
+.profile-img:hover {
+    background: linear-gradient(40deg, #fc00ff 0%, #00dbde 100%);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -8px;
+    padding: 4px;
+}
+
+.icons-child {
+    background-color: rgb(46, 44, 44);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.icons-child:hover {
+
+    background: linear-gradient(-45deg, #fc00ff 6%, #00dbde 100%);
+}
+
+.fa-x-twitter {
+    color: white;
+    font-size: 25px;
+    margin: 6px 0px 0px 6px;
+    padding: 2px;
+}
+
+.fa-facebook {
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 25px;
+    padding: 8px;
+    margin-left: 1px;
+
+}
+
+.fa-skype {
+    color: white;
+    font-size: 25px;
+    padding: 9px;
+}
+
+.fa-linkedin {
+    color: white;
+    font-size: 25px;
+    padding: 9px;
+}
+
+.navmenu {
+    padding: 0px 0px 10px 0px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.menu1 {
+
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border:none;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+}
+/*
+.menu1:hover{
+    background: linear-gradient(40deg, #fc00ff 10%, #00dbde 100%);
+    filter: drop-shadow(1px 1px 6px gold);
+    
+} */
+.menu1 i {
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 22px;
+
+
+}
+
+.menu1 i:hover {
+    color: #149ddd;
+
+}
+
+.menu1 p {
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.menu1 p:hover {
+    color: rgb(197, 190, 190);
+}
+
+.menu2 {
+
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+}
+/*
+.menu2:hover{
+    background: linear-gradient(40deg, #fc00ff 10%, #00dbde 100%);
+    filter: drop-shadow(1px 1px 6px gold);
+}*/
+.menu2 i {
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 22px;
+
+
+}
+
+.menu2 i:hover {
+    color: #149ddd;
+}
+
+.menu2 p {
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.menu2 p:hover {
+    color: rgb(197, 190, 190);
+    ;
+}
+
+.menu3 {
+
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+}
+/*
+.menu3:hover{
+    background: linear-gradient(40deg, #fc00ff 10%, #00dbde 100%);
+    filter: drop-shadow(1px 1px 6px gold);
+    
+
+}*/
+.menu3 i {
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 22px;
+
+
+}
+
+.menu3 i:hover {
+    color: #149ddd;
+}
+
+.menu3 p {
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.menu3 p:hover {
+    color: rgb(197, 190, 190);
+    
+}
+
+.menu4{
+
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+}
+/*
+.menu4:hover{
+    background: linear-gradient(40deg, #fc00ff 10%, #00dbde 100%);
+    filter: drop-shadow(1px 1px 6px gold);
+}*/
+.menu4 i {
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 22px;
+
+
+}
+
+.menu4 i:hover {
+    color: #149ddd;
+}
+
+.menu4 p {
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.menu4 p:hover {
+    color: rgb(197, 190, 190);
+    ;
+}
+
+.menu5 {
+
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+    
+}
+/*
+.menu5:hover{
+    background: linear-gradient(40deg, #fc00ff 10%, #00dbde 100%);
+    filter: drop-shadow(1px 1px 6px gold);
+}*/
+.menu5 i {
+    font-size: 25px;
+    margin-left: 10px;
+    position: absolute;
+    top: 22px;
+
+
+}
+
+.menu5 i:hover {
+    color: #149ddd;
+}
+
+.menu5 p {
+    color: white;
+    margin-top: 10px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.menu5 p:hover {
+    color: rgb(197, 190, 190);
+    ;
+}
+
+
+/*-------------------     -------------------*/
+
+.boxB{
+    width: 75%;
+    border: 1px solid black;
+  background-image: url(img/Snapchat-219010214.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  
+
+
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    left: 27%;
+
+
+}
+
+.text h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    font-family: Arial Narrow;
+    color: rgb(186, 180, 169);
+
+
+}
+
+.text h1:hover {
+
+    filter: drop-shadow(1px 1px 20px  lightblue);
+
+
+}

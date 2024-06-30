@@ -1,0 +1,36 @@
+
+
+.box{
+    display: flex;
+}
+.a{
+    width: 30%;
+    background-color: aqua;
+}
+.a img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.b{
+    width: 70%;
+    background-color: brown;
+}
+
+.biodata{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+.biodata table{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+.biodata table th{
+    text-align: left;
+    padding-left: 0px;
+    
+}
